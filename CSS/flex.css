@@ -4,24 +4,24 @@
 }
 .head{
     height:200px;
-    flex: 100%;
+    flex: 80%;
     background-color: violet;
 
 }
 .sidediv{
     flex: 20%;
     max-width: 200px;
-    height: 400px;
+    height: 600px;
     background-color:blue;
 }
 
 .content{
     flex: 60%;
-    height:400px ;
+    height:600px ;
     background-color: brown;
 }
 .footer{
-    flex: 100%;
+    flex: 60%;
     height:200px ;
     background-color: black;
 
