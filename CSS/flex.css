@@ -1,0 +1,34 @@
+.ContainerDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    height:200px;
+    flex: 100%;
+    background-color: violet;
+
+}
+.sidediv{
+    flex: 20%;
+    max-width: 200px;
+    height: 400px;
+    background-color:blue;
+}
+
+.content{
+    flex: 60%;
+    height:400px ;
+    background-color: brown;
+}
+.footer{
+    flex: 100%;
+    height:200px ;
+    background-color: black;
+
+}
+@media screen and (max-width:800px) {
+    .sidedive, .content{
+        flex: 100%;
+        max-width: none;
+    }
+}
